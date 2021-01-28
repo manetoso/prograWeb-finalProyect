@@ -1,0 +1,20 @@
+#top-contenedor{
+    padding-top: 105px;
+}
+#sub-btn{
+    font-size: 20px;
+    transition: .5s;
+}
+#sub-btn:hover{
+    font-size: 22px;
+    text-shadow: 0px 0px 5px #ccc;
+}
+#map-h1{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#map-h1 i{
+    font-size: 80px;
+}

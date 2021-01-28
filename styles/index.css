@@ -1,0 +1,78 @@
+#logo-navbar{
+    width: 150px;
+}
+.nav-item{
+    font-size: 23px;
+}
+.navbar .navbar-dark{
+    border-bottom: transparent;
+    box-shadow: 2px 2px 5px 5px rgb(0, 0, 0, 0.2);
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#control-left{
+    background: url('../img/slider/large_left.png') no-repeat 0px 0px;
+    width: 37px;
+    height: 36px;
+    transition: .5s;
+}
+#control-right{
+    background: url('../img/slider/large_right.png') no-repeat 0px 0px;
+    width: 37px;
+    height: 36px;
+    transition: .5s;
+}
+#card-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#carouselExampleIndicators{
+    padding-top: 120px;
+}
+.subtitulo-fila{
+    padding-top: 25px;
+}
+.card{
+    margin-right: 29px;
+}
+.pie-de-pag{
+    background-color: #252525;
+    color: white;
+    padding-bottom: 25px;
+}
+.pie-logo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pie-de-pag h2{
+    color: #02b875;
+}
+.pie-lista{
+    text-decoration: none;
+    color: #02b875;
+    transition: .5s;
+}
+.pie-lista:hover{
+    text-decoration: underline;
+    color: #02b875;
+    margin-left: 20px;
+}
+.nosotros-txt{
+    padding-top: 150px;
+}
+
+#facebook{
+    background: url('../img/sprite_sm.png') no-repeat 0px 0px;
+	width: 84px;
+	height: 78px;
+    transition: .5s;
+}
+#facebook:hover{
+    background: url('../img/sprite_sm.png') no-repeat 0px -90px;
+	width: 84px;
+	height: 78px;
+}

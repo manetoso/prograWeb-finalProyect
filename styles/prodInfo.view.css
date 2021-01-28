@@ -1,0 +1,28 @@
+#container-ben-dosi{
+    border: 1px dotted #555;
+}
+#ben-dosi {
+    background-color: #02b875;
+}
+#ben-dosi .nav-item .nav-link{
+    color: white;
+    transition: .5s;
+}
+#ben-dosi .nav-item .nav-link:hover{
+    font-size: 24px;
+    color: white;
+    border-color: #02b875;
+    text-shadow: 0px 0px 4px #ddd;
+}
+#ben-dosi .nav-item .nav-link .active{
+    color: white;
+}
+#ben-dosi .nav-item .active{
+    font-size: 24px;
+    text-shadow: 0px 0px 4px #ddd;
+    text-decoration: underline;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: #02b875;
+    border-color: #02b875;
+}
